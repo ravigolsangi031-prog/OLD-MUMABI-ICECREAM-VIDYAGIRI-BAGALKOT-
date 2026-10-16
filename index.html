@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Old Mumbai Ice Cream | Vidyagiri, Bagalkot</title>
+<meta name="description" content="Old Mumbai Ice Cream in Vidyagiri, Bagalkot. Pure milk, real fruit ice creams, kulfi, falooda and milkshakes. Open 11 AM to 11 PM. Call or WhatsApp.">
+<meta name="theme-color" content="#D62828">
+<meta property="og:title" content="Old Mumbai Ice Cream, Bagalkot">
+<meta property="og:description" content="Pure milk, real fruits, unforgettable ice cream moments.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='38' r='28' fill='%23D62828'/%3E%3Cpath d='M26 52h48L50 96z' fill='%23F77F00'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800&family=Manrope:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#FFF4E0;--ink:#2B2320;--red:#D62828;--orange:#F77F00;--teal:#17808C;--cream:#FFE8C2;--r:16px}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:76px}
+body{font-family:'Manrope',sans-serif;background:var(--bg);color:var(--ink);font-size:17px;line-height:1.65}
+h1,h2,h3,.logo{font-family:'Fraunces',serif;font-weight:800;line-height:1.1}
+a{color:inherit}
+img{max-width:100%;display:block}
+:focus-visible{outline:3px solid var(--teal);outline-offset:2px}
+.wrap{max-width:1160px;margin:0 auto;padding:0 20px}
+section{padding:96px 0}
+h2{font-size:clamp(30px,5vw,50px);margin-bottom:14px;color:var(--red)}
+.lead{max-width:56ch;opacity:.85;margin-bottom:40px}
+.btn{display:inline-flex;align-items:center;justify-content:center;padding:13px 24px;border-radius:999px;font-weight:800;text-decoration:none;font-size:16px;border:2px solid var(--red);transition:transform .15s}
+.btn:active{transform:scale(.97)}
+.wa{background:var(--red);color:#FFF4E0}
+.call{background:transparent;color:var(--red)}
+.ic{width:34px;height:44px;flex:none}
+.scal{display:block;width:100%;height:22px;color:var(--bg)}
+/* header */
+header{position:sticky;top:0;z-index:50;background:var(--bg);border-bottom:2px solid var(--cream)}
+.hbar{display:flex;align-items:center;gap:18px;height:68px}
+.logo{font-size:21px;text-decoration:none;color:var(--red);margin-right:auto;display:flex;align-items:center;gap:8px}
+.logo .ic{width:22px;height:30px}
+nav ul{display:flex;gap:22px;list-style:none}
+nav a{text-decoration:none;font-weight:700}
+nav a:hover{color:var(--orange)}
+.hcta{display:flex;gap:8px}
+.hcta .btn{padding:8px 16px;font-size:15px}
+.burger{display:none;background:none;border:2px solid var(--ink);border-radius:8px;width:44px;height:40px;font-size:22px;cursor:pointer}
+/* hero */
+.hero{padding:48px 0 110px;position:relative;overflow:hidden}
+.hgrid{display:grid;grid-template-columns:1.2fr .8fr;gap:40px;align-items:center}
+.hero h1{font-size:clamp(40px,7vw,84px);color:var(--red);margin-right:-100px;position:relative;z-index:2}
+.hero p.sub{font-size:19px;max-width:48ch;margin:22px 0 12px;position:relative;z-index:2}
+.proof{font-weight:800;color:var(--teal);margin-bottom:26px;position:relative;z-index:2}
+.hbtns{display:flex;gap:12px;flex-wrap:wrap;position:relative;z-index:2}
+.hvis{position:relative;aspect-ratio:4/5;border-radius:220px 220px 28px 28px;background:var(--orange);overflow:hidden}
+.hvis img{width:100%;height:100%;object-fit:cover}
+.blob{position:absolute;right:-160px;top:-140px;width:520px;height:520px;border-radius:50%;background:var(--cream);z-index:0}
+/* trust */
+.trust{background:var(--teal);color:#FFF4E0;padding:0 0 44px}
+.trust .scal{color:var(--bg);transform:rotate(180deg);margin-bottom:34px}
+.tgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:24px}
+.tgrid b{font-family:'Fraunces',serif;font-size:38px;display:block;line-height:1.1;color:#FFD27A}
+/* menu */
+.sgrid{display:grid;grid-template-columns:repeat(6,1fr);gap:18px}
+.card{background:#FFFAF0;border:2px solid var(--cream);border-radius:var(--r);padding:24px;display:flex;flex-direction:column;gap:10px;grid-column:span 2}
+.card.big{grid-column:span 4;background:var(--cream)}
+.card.mid{grid-column:span 3}
+.card h3{font-size:22px;color:var(--red)}
+.card p{font-size:16px;flex:1;opacity:.9}
+.price{font-weight:800;color:var(--teal);font-size:15px}
+.card .btn{padding:9px 18px;font-size:15px;align-self:flex-start}
+/* about */
+.about{background:var(--cream)}
+.agrid{display:grid;grid-template-columns:.7fr 1.3fr;gap:56px;align-items:start}
+.avatar{width:150px;height:150px;border-radius:50%;background:var(--red);color:#FFE8C2;font-family:'Fraunces',serif;font-weight:800;font-size:54px;display:grid;place-items:center;border:6px solid var(--orange);margin-bottom:18px}
+.about p{margin-bottom:16px;max-width:60ch}
+.diff{list-style:none;margin-top:22px;display:grid;gap:10px}
+.diff li{display:flex;gap:10px;align-items:center;font-weight:700}
+.diff .ic{width:16px;height:22px}
+/* gallery */
+.ggrid{display:grid;grid-template-columns:repeat(4,1fr);grid-auto-rows:170px;gap:12px}
+.ggrid figure{border-radius:var(--r);overflow:hidden;background:var(--orange);position:relative}
+.ggrid figure:nth-child(1){grid-column:span 2;grid-row:span 2}
+.ggrid figure:nth-child(4){grid-row:span 2}
+.ggrid figure:nth-child(6){grid-column:span 2}
+.ggrid img{width:100%;height:100%;object-fit:cover}
+.ggrid figcaption{position:absolute;left:0;right:0;bottom:0;padding:6px 12px;font-size:14px;font-weight:700;background:rgba(43,35,32,.72);color:#FFF4E0}
+/* reviews */
+.rgrid{display:grid;grid-template-columns:1.2fr 1fr 1fr;gap:18px;align-items:start}
+.rev{background:#FFFAF0;border-left:6px solid var(--teal);padding:22px;border-radius:0 var(--r) var(--r) 0}
+.rev:nth-child(2){margin-top:36px}
+.stars{display:flex;gap:2px;margin-bottom:8px}
+.stars svg{width:20px;height:20px}
+.rev cite{display:block;margin-top:12px;font-style:normal;font-weight:800;color:var(--red)}
+.rev cite span{font-weight:400;color:var(--ink);opacity:.75}
+/* pricing */
+.pricing{background:var(--cream)}
+.plist{max-width:760px;list-style:none}
+.plist li{display:flex;align-items:center;gap:10px;padding:12px 0;border-bottom:2px dotted rgba(43,35,32,.3)}
+.plist li span:first-child{flex:1;font-weight:700}
+.plist a{font-weight:800;color:var(--teal);white-space:nowrap}
+.pnote{margin-top:18px;font-size:16px;opacity:.85;max-width:60ch}
+/* contact */
+.cgrid{display:grid;grid-template-columns:1.1fr .9fr;gap:36px}
+.map{width:100%;height:100%;min-height:340px;border:0;border-radius:var(--r)}
+.hours{width:100%;border-collapse:collapse;margin:14px 0 24px}
+.hours td{padding:8px 0;border-bottom:1px solid var(--cream)}
+.hours td:last-child{text-align:right;font-weight:700}
+.cm{list-style:none;display:grid;gap:8px;margin-bottom:22px}
+.cm a{font-weight:800}
+/* footer */
+footer{background:var(--ink);color:#FFF4E0;padding:72px 0 120px}
+footer h2{color:#FFD27A;font-size:34px}
+.fgrid{display:grid;grid-template-columns:1.2fr .8fr;gap:40px;align-items:center}
+footer ul{list-style:none;display:flex;gap:18px;flex-wrap:wrap;margin:16px 0}
+footer .wa{background:var(--orange);border-color:var(--orange);color:var(--ink);font-size:21px;padding:18px 30px}
+.built{margin-top:40px;font-size:12px;opacity:.7;text-transform:lowercase;text-align:center}
+.bar{display:none}
+@media(max-width:1080px){.sgrid .card,.sgrid .card.mid{grid-column:span 3}.sgrid .card.big{grid-column:span 6}.hero h1{margin-right:0}}
+@media(max-width:820px){
+section{padding:72px 0}
+nav{display:none;position:absolute;top:68px;left:0;right:0;background:var(--bg);border-bottom:2px solid var(--cream);padding:12px 20px}
+nav.open{display:block}
+nav ul{flex-direction:column;gap:0}
+nav a{display:block;padding:12px 0}
+.burger{display:block}
+.hcta{display:none}
+.hgrid,.agrid,.cgrid,.fgrid{grid-template-columns:1fr}
+.hvis{max-width:360px;aspect-ratio:1/1;border-radius:180px 180px 24px 24px}
+.tgrid{grid-template-columns:1fr 1fr}
+.rgrid{grid-template-columns:1fr}.rev:nth-child(2){margin-top:0}
+.ggrid{grid-template-columns:1fr 1fr;grid-auto-rows:150px}
+.ggrid figure:nth-child(1),.ggrid figure:nth-child(6){grid-column:span 2}
+.bar{display:grid;grid-template-columns:1fr 1fr;position:fixed;bottom:0;left:0;right:0;z-index:60;box-shadow:0 -2px 10px rgba(0,0,0,.2)}
+.bar a{padding:16px;text-align:center;font-weight:800;text-decoration:none;font-size:18px;color:#FFF4E0}
+.bar a:first-child{background:var(--teal)}
+.bar a:last-child{background:var(--red)}
+}
+@media(max-width:520px){
+body{font-size:16px}
+.sgrid .card,.sgrid .card.big,.sgrid .card.mid{grid-column:span 6}
+.blob{width:340px;height:340px;right:-120px;top:-60px}
+.hero h1{font-size:40px}
+.btn{width:100%}
+}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.btn{transition:none}}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+<defs>
+<symbol id="cone" viewBox="0 0 34 44"><circle cx="17" cy="12" r="11" fill="#D62828"/><circle cx="17" cy="7" r="4" fill="#FFF4E0" opacity=".45"/><path d="M5 18h24L17 43z" fill="#F77F00"/><path d="M9 22l8 14M25 22l-8 14M13 20l4 6 4-6" stroke="#B35F00" stroke-width="1.2" fill="none"/></symbol>
+<symbol id="star" viewBox="0 0 24 24"><path fill="#F77F00" d="M12 2l3 6.9 7.5.7-5.7 5 1.7 7.4L12 18l-6.5 4 1.7-7.4-5.7-5 7.5-.7z"/></symbol>
+<pattern id="sc" width="40" height="22" patternUnits="userSpaceOnUse"><path d="M0 22V10a20 10 0 0 1 40 0v12z" fill="currentColor"/></pattern>
+</defs>
+</svg>
+
+<header>
+<div class="wrap hbar">
+<a class="logo" href="#top" aria-label="Old Mumbai Ice Cream home"><svg class="ic"><use href="#cone"/></svg>Old Mumbai Ice Cream</a>
+<nav id="nav" aria-label="Main">
+<ul>
+<li><a href="#menu">Menu</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#prices">Prices</a></li>
+<li><a href="#contact">Visit Us</a></li>
+</ul>
+</nav>
+<div class="hcta">
+<a class="btn call" href="tel:+919019184506">Call</a>
+<a class="btn wa" href="https://wa.me/919019184506?text=Hi%21%20I%20found%20Old%20Mumbai%20Ice%20Cream%20Bagalkot%20online.%20I%20have%20a%20question." target="_blank" rel="noopener">WhatsApp</a>
+</div>
+<button class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="nav">&#9776;</button>
+</div>
+</header>
+
+<main id="top">
+<section class="hero">
+<div class="blob" aria-hidden="true"></div>
+<div class="wrap hgrid">
+<div>
+<h1>Pure milk, real fruit and Indian flavours, scooped in Vidyagiri.</h1>
+<p class="sub">Jackfruit, Kala Jamun, Gajar Halwa and Gulkand Kulfi, made without palm oil or artificial preservatives.</p>
+<p class="proof">Open every day, 11 AM to 11 PM</p>
+<div class="hbtns">
+<a class="btn wa" href="https://wa.me/919019184506?text=Hi%21%20I%20want%20to%20order%20ice%20cream%20from%20Old%20Mumbai%20Ice%20Cream%20Bagalkot.%20What%20flavours%20are%20available%20today%3F" target="_blank" rel="noopener">Order on WhatsApp</a>
+<a class="btn call" href="tel:+919019184506">Call the parlour</a>
+</div>
+</div>
+<div class="hvis">
+<img src="https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=800&auto=format&fit=crop" alt="Colourful ice cream scoops in cones" width="800" height="1000" onerror="this.style.display='none'">
+</div>
+</div>
+</section>
+
+<div class="trust">
+<svg class="scal" aria-hidden="true" preserveAspectRatio="none"><rect width="100%" height="22" fill="url(#sc)"/></svg>
+<div class="wrap tgrid">
+<div><b>10+</b>ice cream flavours</div>
+<div><b>0</b>palm oil, ever</div>
+<div><b>5</b>milkshake flavours</div>
+<div><b>11 PM</b>we close late for you</div>
+</div>
+</div>
+
+<section id="menu">
+<div class="wrap">
+<h2>Pick your scoop</h2>
+<p class="lead">Tap WhatsApp on any card and the message is already typed. Ask us for today's price and what is in stock.</p>
+<div class="sgrid">
+<article class="card big">
+<svg class="ic"><use href="#cone"/></svg>
+<h3>Fruit and Desi Scoops</h3>
+<p>Jackfruit, Kala Jamun, Custard Apple and Anjeer Honey. Flavours you usually find only in a fruit season or at home, now in a cup.</p>
+<span class="price">Price on request</span>
+<a class="btn wa" href="https://wa.me/919019184506?text=Hi%21%20I%20want%20to%20know%20the%20price%20and%20availability%20of%20Jackfruit%2C%20Kala%20Jamun%2C%20Custard%20Apple%20and%20Anjeer%20Honey%20ice%20cream." target="_blank" rel="noopener">Ask on WhatsApp</a>
+</article>
+<article class="card">
+<svg class="ic"><use href="#cone"/></svg>
+<h3>Gajar Halwa Ice Cream</h3>
+<p>Winter's favourite sweet, frozen and creamy.</p>
+<span class="price">Price on request</span>
+<a class="btn wa" href="https://wa.me/919019184506?text=Hi%21%20Is%20Gajar%20Halwa%20ice%20cream%20available%20today%3F%20What%20is%20the%20price%3F" target="_blank" rel="noopener">Ask on WhatsApp</a>
+</article>
+<article class="card">
+<svg class="ic"><use href="#cone"/></svg>
+<h3>Chocolate and Nut</h3>
+<p>Black Forest, Happy Chocolate, Butter Scotch, Chocolate Almond and Roasted Almond.</p>
+<span class="price">Price on request</span>
+<a class="btn wa" href="https://wa.me/919019184506?text=Hi%21%20I%20want%20to%20order%20chocolate%20and%20nut%20ice%20creams.%20Please%20share%20the%20flavours%20and%20prices." target="_blank" rel="noopener">Ask on WhatsApp</a>
+</article>
+<article class="card mid">
+<svg class="ic"><use href="#cone"/></svg>
+<h3>Kulfi</h3>
+<p>Gulkand Kulfi, Gulkand Rawadi and Pista Rawadi. A sugar-free kulfi is also on the menu.</p>
+<span class="price">Price on request</span>
+<a class="btn wa" href="https://wa.me/919019184506?text=Hi%21%20I%20want%20to%20order%20kulfi.%20Please%20share%20the%20varieties%20available%20and%20the%20price." target="_blank" rel="noopener">Ask on WhatsApp</a>
+</article>
+<article class="card mid">
+<svg class="ic"><use href="#cone"/></svg>
+<h3>Falooda and Sundaes</h3>
+<p>Layered, loaded and best shared at the table.</p>
+<span class="price">Price on request</span>
+<a class="btn wa" href="https://wa.me/919019184506?text=Hi%21%20I%20want%20to%20order%20falooda%20and%20sundaes.%20Please%20share%20the%20options." target="_blank" rel="noopener">Ask on WhatsApp</a>
+</article>
+<article class="card">
+<svg class="ic"><use href="#cone"/></svg>
+<h3>Milkshakes</h3>
+<p>Chocolate, Mango, Anjeer, Oreo and Strawberry.</p>
+<span class="price">Price on request</span>
+<a class="btn wa" href="https://wa.me/919019184506?text=Hi%21%20I%20want%20to%20order%20a%20milkshake.%20Flavours%20I%20like%3A%20" target="_blank" rel="noopener">Ask on WhatsApp</a>
+</article>
+<article class="card">
+<svg class="ic"><use href="#cone"/></svg>
+<h3>Waffle Cone</h3>
+<p>Crisp cone, your choice of scoop.</p>
+<span class="price">Price on request</span>
+<a class="btn wa" href="https://wa.me/919019184506?text=Hi%21%20I%20want%20a%20waffle%20cone.%20Which%20flavours%20can%20I%20choose%3F" target="_blank" rel="noopener">Ask on WhatsApp</a>
+</article>
+<article class="card">
+<svg class="ic"><use href="#cone"/></svg>
+<h3>Family Pack</h3>
+<p>Take a tub home for the whole family or a small get-together.</p>
+<span class="price">Price on request</span>
+<a class="btn wa" href="https://wa.me/919019184506?text=Hi%21%20I%20want%20a%20family%20pack%20of%20ice%20cream.%20Please%20share%20the%20flavours%20and%20prices." target="_blank" rel="noopener">Ask on WhatsApp</a>
+</article>
+</div>
+</div>
+</section>
+
+<section class="about" id="about">
+<div class="wrap agrid">
+<div>
+<div class="avatar" aria-hidden="true">OM</div>
+<h3 style="font-size:26px">The Old Mumbai team</h3>
+<p style="margin:0;opacity:.8">Vidyagiri, Bagalkot</p>
+</div>
+<div>
+<h2>A new parlour with an old idea</h2>
+<p>Old Mumbai is a name families have trusted for ice cream made with milk, not shortcuts. When we opened our Bagalkot shop in Vidyagiri about two years ago, we wanted the same thing for our neighbours: a clean place to sit and a scoop you can feel good about.</p>
+<p>That is why our menu leans on flavours you grew up with. Gajar Halwa from winter weddings, Kala Jamun from the fruit stall, Gulkand from your grandmother's cupboard. Come in, ask for a taste, and tell us what we should make next.</p>
+<ul class="diff">
+<li><svg class="ic"><use href="#cone"/></svg>Pure milk and real fruits</li>
+<li><svg class="ic"><use href="#cone"/></svg>No palm oil, no artificial preservatives</li>
+<li><svg class="ic"><use href="#cone"/></svg>Indian flavours you will not find elsewhere in Bagalkot</li>
+<li><svg class="ic"><use href="#cone"/></svg>Clean, bright seating for families</li>
+<li><svg class="ic"><use href="#cone"/></svg>UPI QR payment accepted</li>
+</ul>
+</div>
+</div>
+</section>
+
+<section id="gallery">
+<div class="wrap">
+<h2>Scoop gallery</h2>
+<p class="lead">A taste of what is in the display counter.</p>
+<div class="ggrid">
+<figure><img loading="lazy" src="https://images.unsplash.com/photo-1501443762994-82bd5dace89a?w=800&auto=format&fit=crop" alt="Ice cream scoops in a bowl" onerror="this.style.display='none'"><figcaption>Scoops</figcaption></figure>
+<figure><img loading="lazy" src="https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?w=800&auto=format&fit=crop" alt="Ice cream with toppings" onerror="this.style.display='none'"><figcaption>Sundae</figcaption></figure>
+<figure><img loading="lazy" src="https://images.unsplash.com/photo-1567206563064-6f60f40a2b57?w=800&auto=format&fit=crop" alt="Chocolate ice cream" onerror="this.style.display='none'"><figcaption>Chocolate</figcaption></figure>
+<figure><img loading="lazy" src="https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=800&auto=format&fit=crop" alt="Ice cream cones" onerror="this.style.display='none'"><figcaption>Cones</figcaption></figure>
+<figure><img loading="lazy" src="https://images.unsplash.com/photo-1576506295286-5cda18df43e7?w=800&auto=format&fit=crop" alt="Strawberry ice cream" onerror="this.style.display='none'"><figcaption>Strawberry</figcaption></figure>
+<figure><img loading="lazy" src="https://images.unsplash.com/photo-1488900128323-21503983a07e?w=800&auto=format&fit=crop" alt="Ice cream dessert" onerror="this.style.display='none'"><figcaption>Dessert</figcaption></figure>
+</div>
+</div>
+</section>
+
+<section id="reviews" style="padding-top:0">
+<div class="wrap">
+<h2>Heard around Vidyagiri</h2>
+<p class="lead">Sample reviews. Replace with real customer words before going live.</p>
+<div class="rgrid">
+<blockquote class="rev">
+<div class="stars" role="img" aria-label="5 out of 5 stars"><svg><use href="#star"/></svg><svg><use href="#star"/></svg><svg><use href="#star"/></svg><svg><use href="#star"/></svg><svg><use href="#star"/></svg></div>
+<p>Never had jackfruit ice cream before. We went after dinner with the kids and ended up ordering a second round. Seating is clean and the staff were polite.</p>
+<cite>Priya Kulkarni <span>Vidyagiri</span></cite>
+</blockquote>
+<blockquote class="rev">
+<div class="stars" role="img" aria-label="5 out of 5 stars"><svg><use href="#star"/></svg><svg><use href="#star"/></svg><svg><use href="#star"/></svg><svg><use href="#star"/></svg><svg><use href="#star"/></svg></div>
+<p>Gulkand kulfi is the best thing here. Not too sweet.</p>
+<cite>Santosh Patil <span>Navanagar</span></cite>
+</blockquote>
+<blockquote class="rev">
+<div class="stars" role="img" aria-label="5 out of 5 stars"><svg><use href="#star"/></svg><svg><use href="#star"/></svg><svg><use href="#star"/></svg><svg><use href="#star"/></svg><svg><use href="#star"/></svg></div>
+<p>Open till 11 so we come after college. Oreo shake and a waffle cone every Friday.</p>
+<cite>Aditya Hiremath <span>Vidyagiri</span></cite>
+</blockquote>
+</div>
+</div>
+</section>
+
+<section class="pricing" id="prices">
+<div class="wrap">
+<h2>Prices, straight answer</h2>
+<p class="lead">We update our rates through the season, so tap any line and we will send today's price on WhatsApp.</p>
+<ul class="plist">
+<li><span>Fruit and desi scoops</span><a href="https://wa.me/919019184506?text=Hi%21%20What%20is%20today%27s%20price%20for%20fruit%20and%20desi%20scoops%3F" target="_blank" rel="noopener">Get price</a></li>
+<li><span>Chocolate and nut scoops</span><a href="https://wa.me/919019184506?text=Hi%21%20What%20is%20today%27s%20price%20for%20chocolate%20and%20nut%20scoops%3F" target="_blank" rel="noopener">Get price</a></li>
+<li><span>Gajar Halwa ice cream</span><a href="https://wa.me/919019184506?text=Hi%21%20What%20is%20today%27s%20price%20for%20Gajar%20Halwa%20ice%20cream%3F" target="_blank" rel="noopener">Get price</a></li>
+<li><span>Kulfi and sugar-free kulfi</span><a href="https://wa.me/919019184506?text=Hi%21%20What%20is%20today%27s%20price%20for%20kulfi%20and%20sugar-free%20kulfi%3F" target="_blank" rel="noopener">Get price</a></li>
+<li><span>Falooda and sundaes</span><a href="https://wa.me/919019184506?text=Hi%21%20What%20is%20today%27s%20price%20for%20falooda%20and%20sundaes%3F" target="_blank" rel="noopener">Get price</a></li>
+<li><span>Milkshakes</span><a href="https://wa.me/919019184506?text=Hi%21%20What%20is%20today%27s%20price%20for%20milkshakes%3F" target="_blank" rel="noopener">Get price</a></li>
+<li><span>Waffle cone</span><a href="https://wa.me/919019184506?text=Hi%21%20What%20is%20today%27s%20price%20for%20a%20waffle%20cone%3F" target="_blank" rel="noopener">Get price</a></li>
+<li><span>Family pack</span><a href="https://wa.me/919019184506?text=Hi%21%20What%20is%20today%27s%20price%20for%20a%20family%20pack%3F" target="_blank" rel="noopener">Get price</a></li>
+</ul>
+<p class="pnote">Pay by cash or UPI QR at the counter.</p>
+</div>
+</section>
+
+<section id="contact">
+<div class="wrap cgrid">
+<div>
+<h2>Come say hello</h2>
+<p>Old Mumbai Ice Cream, Vidyagiri, Bagalkot, Karnataka 587102</p>
+<table class="hours" aria-label="Opening hours">
+<tr><td>Monday to Friday</td><td>11:00 AM to 11:00 PM</td></tr>
+<tr><td>Saturday and Sunday</td><td>11:00 AM to 11:00 PM</td></tr>
+</table>
+<ul class="cm">
+<li>Phone: <a href="tel:+919019184506">+91 90191 84506</a></li>
+<li>WhatsApp: <a href="https://wa.me/919019184506?text=Hi%21%20I%20have%20a%20question%20for%20Old%20Mumbai%20Ice%20Cream%20Bagalkot." target="_blank" rel="noopener">+91 90191 84506</a></li>
+<li>Instagram: <a href="https://www.instagram.com/oldmumbai_icecream_bagalkot" target="_blank" rel="noopener">@oldmumbai_icecream_bagalkot</a></li>
+</ul>
+<a class="btn wa" href="https://wa.me/919019184506?text=Hi%21%20Please%20share%20the%20location%20of%20Old%20Mumbai%20Ice%20Cream%20in%20Vidyagiri." target="_blank" rel="noopener">Ask for directions</a>
+</div>
+<iframe class="map" title="Map showing Old Mumbai Ice Cream, Vidyagiri, Bagalkot" loading="lazy" src="https://maps.google.com/maps?q=Vidyagiri%2C%20Bagalkot%2C%20Karnataka%20587102&output=embed"></iframe>
+</div>
+</section>
+</main>
+
+<footer>
+<div class="wrap">
+<div class="fgrid">
+<div>
+<h2>Old Mumbai Ice Cream</h2>
+<p>Pure Milk, Real Fruits, Unforgettable Ice Cream Moments.</p>
+<ul>
+<li><a href="#menu">Menu</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#prices">Prices</a></li>
+<li><a href="#contact">Visit Us</a></li>
+<li><a href="https://www.instagram.com/oldmumbai_icecream_bagalkot" target="_blank" rel="noopener">Instagram</a></li>
+</ul>
+</div>
+<div>
+<a class="btn wa" href="https://wa.me/919019184506?text=Hi%21%20I%20would%20like%20to%20order%20from%20Old%20Mumbai%20Ice%20Cream%20Bagalkot." target="_blank" rel="noopener">Order on WhatsApp</a>
+</div>
+</div>
+<p class="built">&copy; <span id="yr">2026</span> Old Mumbai Ice Cream, Bagalkot. built with ❤️ by 21.coders</p>
+</div>
+</footer>
+
+<div class="bar">
+<a href="tel:+919019184506">Call</a>
+<a href="https://wa.me/919019184506?text=Hi%21%20I%20would%20like%20to%20order%20from%20Old%20Mumbai%20Ice%20Cream%20Bagalkot." target="_blank" rel="noopener">WhatsApp</a>
+</div>
+
+<script>
+document.getElementById('yr').textContent=new Date().getFullYear();
+var b=document.getElementById('burger'),n=document.getElementById('nav');
+b.addEventListener('click',function(){var o=n.classList.toggle('open');b.setAttribute('aria-expanded',o)});
+n.addEventListener('click',function(e){if(e.target.tagName==='A'){n.classList.remove('open');b.setAttribute('aria-expanded','false')}});
+</script>
+</body>
+</html>
